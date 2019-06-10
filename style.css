@@ -1,0 +1,218 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Century Gothic;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+header{
+  position:relative;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.2)),url("back.jpg");
+  width:100%;
+  height:100vh;
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+ul{
+ float:right;
+ margin-top:14px;
+
+  list-style-type:none;
+
+}
+ul li{
+  display: inline-flex;
+  margin-right: 4px;
+}
+
+ul li :hover{
+
+border:1px solid white;
+
+
+}
+ul li a{
+  text-decoration:none;
+  color:#fff;
+  padding:5px 20px;
+
+}
+
+.main center{
+
+  color: white;
+
+padding-top: 27%;
+}
+.profile{
+  background-color:#dddada;text-align:center;padding:50px;text-align:center;
+}
+
+.bg2{
+background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.2)),url("bg2.jpg");
+  width:100%;
+  height:100vh;
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  padding-bottom: 60px;
+  border: 1px solid #f1f1f1;
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+
+
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 30px;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color:black;
+  color: white;
+  padding-top: 20px;
+
+  transform: rotateY(180deg);
+}
+#loveicon{
+  padding-right: 5px;
+ margin-bottom:-5px;
+
+}
+#myprojects{
+  color:#fff;
+  padding-left: 34px;
+  padding-top: 29px;
+}
+.bg2 p{
+
+  position:static;
+  padding-top: 200px;
+
+
+/*  left:525px;
+  top:200px;
+*/
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.contact{
+  background-color:#dddada;
+  height:170px;
+  width:100%;
+  letter-spacing: 1px;
+
+
+
+}
+.flex-container{
+  display: flex;
+  flex-direction:row;
+ padding-left: 38%;
+
+}
+.flexbox{
+    padding:15px;
+}
+
+.center{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.down{
+  postion:relative;
+  width:28px;
+  height:54px;
+  border-radius:23px;
+  background: transparent;
+  border:3px solid #fff;
+  overflow:hidden;
+}
+.down:before{
+  content: '';
+  position:absolute;
+  width:7px;
+  height: 7px;
+  border-radius:50%;
+  background:#fff;
+  left:50%;
+  top:-7px;
+  transform:translate(-50%,0);
+  animation:animate_mouse 1.5s linear infinite;
+  border-radius:3px;
+}
+@keyframes animate_mouse{
+   0%{
+     transform:translate(-50%,20px);
+     opacity:0;
+   }
+   60%{
+     transform:translate(-50%,40px);
+     opacity:1;
+   }
+   100%{
+     transform:translate(-50%,50px);
+     opacity:0;
+   }
+}
