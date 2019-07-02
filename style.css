@@ -44,7 +44,7 @@ ul li a{
 .main center{
 
   color: white;
-
+z-index:1;
 padding-top: 27%;
 }
 .profile{
