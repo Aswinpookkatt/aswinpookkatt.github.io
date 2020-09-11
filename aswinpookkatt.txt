@@ -6,7 +6,7 @@
 <p>Its me Aswin here.</p>
 <p>I love codes and to explore the Internet. Sometimes, I wonder where this few letters could take me.</p>
 
-<p>To know more about me, Feel free to explore my <a href="https:\\www.aswincp.me"> profile </a>.</p>
+<p>To know more about me, Feel free to explore my <a href="https:\\www.aswincp.me"> profile</a>.</p>
 <p>If you are  someone like me, drop a "hi" <a href="mailto:aswin.p1800@gmail.com">here</a>.</p>
 
 <p>Have a beautiful day!</p>
