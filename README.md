@@ -1,2 +1,2 @@
 #aswinpookkatt
-A Terminal based Portfolio 
+A fun terminal
